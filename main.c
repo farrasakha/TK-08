@@ -8,7 +8,9 @@ void tampilkanMenu() {
     printf("4. Pembagian (/)\n");
     printf("5. Keluar\n");
 }
-
+float tambah(float a, float b) {
+    return a + b;
+}
 
 
 
@@ -30,7 +32,10 @@ int main() {
         }
 
         switch(pilihan){
-            
+            case 1:
+                hasil = tambah(angka1, angka2);
+                printf("Hasil Penjumlahan: %.2f\n", hasil);
+                break;
         }
         
     }while(pilihan != 5);
