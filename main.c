@@ -12,6 +12,11 @@ float tambah(float a, float b) {
     return a + b;
 }
 
+float kurang(float a, float b) {
+    return a - b;
+}
+
+
 
 
 int main() {
@@ -35,6 +40,10 @@ int main() {
             case 1:
                 hasil = tambah(angka1, angka2);
                 printf("Hasil Penjumlahan: %.2f\n", hasil);
+                break;
+            case 2:
+                hasil = kurang(angka1, angka2);
+                printf("Hasil Pengurangan: %.2f\n", hasil);
                 break;
         }
         
