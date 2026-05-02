@@ -16,6 +16,9 @@ float kurang(float a, float b) {
     return a - b;
 }
 
+float kali(float a, float b) {
+    return a * b;
+}
 
 
 
