@@ -7,3 +7,6 @@
 
 # Proyek ini merupakan kalkulator yang dibuat menggunakan bahasa C untuk menyelesaikan beberapa operasi matematika dasar, mulai dari penjumlahan dan pengurangan hingga perkalian serta pembagian yang dilengkapi pencegahan error saat user memasukkan pembagi nol. Proyek ini dibuat secara kolaboratif menggunakan Git dan GitHub Workflow.
 
+# Farrasah: membuat repo, menambahkan deskripsi proyek di readme, menambahkan satu fungsi pada main.c
+# Rizki: membuat dan menambahkan fungsi di main.c
+# Aliyyah: membuat dan menambahkan fungsi di main.c
