@@ -48,6 +48,10 @@ int main() {
                 hasil = kurang(angka1, angka2);
                 printf("Hasil Pengurangan: %.2f\n", hasil);
                 break;
+            case 3:
+                hasil = kali(angka1, angka2);
+                printf("Hasil Perkalian: %.2f\n", hasil);
+                break;
         }
         
     }while(pilihan != 5);
